@@ -4,6 +4,7 @@ import com.williamdsw.abstract_factory.app.AbstractFactoryApp;
 import com.williamdsw.abstract_factory.app.AbstractFactoryDemo;
 import com.williamdsw.builder.app.BuilderDemo;
 import com.williamdsw.prototype.app.PrototypeDemo;
+import com.williamdsw.singleton.app.NaiveSingletonDemo;
 
 public class JavaDesignPatternsMain {
 
@@ -14,6 +15,10 @@ public class JavaDesignPatternsMain {
 		BuilderDemo.builderDemo ();
 		
 		PrototypeDemo.prototypeDemo ();
+		
+		NaiveSingletonDemo.naiveSingletonSingleThreadDemo ();
+		NaiveSingletonDemo.nativeSingletonMultithreadDemo ();
+		NaiveSingletonDemo.safeSingletonMultithreadDemo ();
 	}
 
 }
