@@ -10,33 +10,36 @@ import com.williamdsw.decorator.app.DecoratorDemo;
 import com.williamdsw.facade.app.FacadeDemo;
 import com.williamdsw.flyweight.app.FlyweightDemo;
 import com.williamdsw.prototype.app.PrototypeDemo;
+import com.williamdsw.proxy.app.ProxyDemo;
 import com.williamdsw.singleton.app.NaiveSingletonDemo;
 
 public class JavaDesignPatternsMain {
 
 	public static void main (String[] args) {
-		AbstractFactoryApp abstractFactoryApp = AbstractFactoryDemo.configureApplication ();
-		abstractFactoryApp.triggerEvents (true);
+		//AbstractFactoryApp abstractFactoryApp = AbstractFactoryDemo.configureApplication ();
+		//abstractFactoryApp.triggerEvents (true);
 		
-		BuilderDemo.builderDemo ();
+		//BuilderDemo.builderDemo ();
 		
-		PrototypeDemo.prototypeDemo ();
+		//PrototypeDemo.prototypeDemo ();
 		
-		NaiveSingletonDemo.naiveSingletonSingleThreadDemo ();
-		NaiveSingletonDemo.nativeSingletonMultithreadDemo ();
-		NaiveSingletonDemo.safeSingletonMultithreadDemo ();
+		//NaiveSingletonDemo.naiveSingletonSingleThreadDemo ();
+		//NaiveSingletonDemo.nativeSingletonMultithreadDemo ();
+		//NaiveSingletonDemo.safeSingletonMultithreadDemo ();
 		
-		AdapterDemo.adapterDemo();
+		//AdapterDemo.adapterDemo();
 		
-		BridgeDemo.bridgeDemo ();
+		//BridgeDemo.bridgeDemo ();
 		
-		CompositeDemo.compositeDemo ();
+		//CompositeDemo.compositeDemo ();
 		
-		DecoratorDemo.decoratorDemo ();
+		//DecoratorDemo.decoratorDemo ();
 		
-		FacadeDemo.facadeDemo();
+		//FacadeDemo.facadeDemo();
 		
-		FlyweightDemo.flyweightDemo ();
+		//FlyweightDemo.flyweightDemo ();
+		
+		ProxyDemo.proxyDemo ();
 	}
 
 }
