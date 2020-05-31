@@ -8,6 +8,7 @@ import com.williamdsw.builder.app.BuilderDemo;
 import com.williamdsw.composite.app.CompositeDemo;
 import com.williamdsw.decorator.app.DecoratorDemo;
 import com.williamdsw.facade.app.FacadeDemo;
+import com.williamdsw.flyweight.app.FlyweightDemo;
 import com.williamdsw.prototype.app.PrototypeDemo;
 import com.williamdsw.singleton.app.NaiveSingletonDemo;
 
@@ -34,6 +35,8 @@ public class JavaDesignPatternsMain {
 		DecoratorDemo.decoratorDemo ();
 		
 		FacadeDemo.facadeDemo();
+		
+		FlyweightDemo.flyweightDemo ();
 	}
 
 }
