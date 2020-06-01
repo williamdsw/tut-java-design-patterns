@@ -3,6 +3,7 @@ package com.williamdsw;
 import com.williamdsw.abstract_factory.app.AbstractFactoryApp;
 import com.williamdsw.abstract_factory.app.AbstractFactoryDemo;
 import com.williamdsw.adapter.app.AdapterDemo;
+import com.williamdsw.behavioral.chain_of_responsibility.app.ChainOfResponsibilityDemo;
 import com.williamdsw.bridge.app.BridgeDemo;
 import com.williamdsw.builder.app.BuilderDemo;
 import com.williamdsw.composite.app.CompositeDemo;
@@ -39,7 +40,9 @@ public class JavaDesignPatternsMain {
 		
 		//FlyweightDemo.flyweightDemo ();
 		
-		ProxyDemo.proxyDemo ();
+		//ProxyDemo.proxyDemo ();
+		
+		ChainOfResponsibilityDemo.chainOfResponsibilityDemo ();
 	}
 
 }
