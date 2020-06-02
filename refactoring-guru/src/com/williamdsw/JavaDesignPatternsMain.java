@@ -1,18 +1,18 @@
 package com.williamdsw;
 
-import com.williamdsw.adapter.app.AdapterDemo;
 import com.williamdsw.behavioral.chain_of_responsibility.app.ChainOfResponsibilityDemo;
-import com.williamdsw.bridge.app.BridgeDemo;
-import com.williamdsw.composite.app.CompositeDemo;
 import com.williamdsw.creational.abstract_factory.app.AbstractFactoryApp;
 import com.williamdsw.creational.abstract_factory.app.AbstractFactoryDemo;
 import com.williamdsw.creational.builder.app.BuilderDemo;
 import com.williamdsw.creational.prototype.app.PrototypeDemo;
 import com.williamdsw.creational.singleton.app.NaiveSingletonDemo;
-import com.williamdsw.decorator.app.DecoratorDemo;
-import com.williamdsw.facade.app.FacadeDemo;
-import com.williamdsw.flyweight.app.FlyweightDemo;
-import com.williamdsw.proxy.app.ProxyDemo;
+import com.williamdsw.structural.adapter.app.AdapterDemo;
+import com.williamdsw.structural.bridge.app.BridgeDemo;
+import com.williamdsw.structural.composite.app.CompositeDemo;
+import com.williamdsw.structural.decorator.app.DecoratorDemo;
+import com.williamdsw.structural.facade.app.FacadeDemo;
+import com.williamdsw.structural.flyweight.app.FlyweightDemo;
+import com.williamdsw.structural.proxy.app.ProxyDemo;
 
 public class JavaDesignPatternsMain {
 
