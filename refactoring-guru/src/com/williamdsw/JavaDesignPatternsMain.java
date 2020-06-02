@@ -1,6 +1,7 @@
 package com.williamdsw;
 
 import com.williamdsw.behavioral.chain_of_responsibility.app.ChainOfResponsibilityDemo;
+import com.williamdsw.behavioral.command.app.CommandDemo;
 import com.williamdsw.creational.abstract_factory.app.AbstractFactoryApp;
 import com.williamdsw.creational.abstract_factory.app.AbstractFactoryDemo;
 import com.williamdsw.creational.builder.app.BuilderDemo;
@@ -42,7 +43,9 @@ public class JavaDesignPatternsMain {
 		
 		//ProxyDemo.proxyDemo ();
 		
-		ChainOfResponsibilityDemo.chainOfResponsibilityDemo ();
+		//ChainOfResponsibilityDemo.chainOfResponsibilityDemo ();
+		
+		CommandDemo.commandDemo ();
 	}
 
 }
