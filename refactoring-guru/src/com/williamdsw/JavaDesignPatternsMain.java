@@ -3,6 +3,7 @@ package com.williamdsw;
 import com.williamdsw.behavioral.chain_of_responsibility.app.ChainOfResponsibilityDemo;
 import com.williamdsw.behavioral.command.app.CommandDemo;
 import com.williamdsw.behavioral.iterator.app.IteratorDemo;
+import com.williamdsw.behavioral.mediator.app.MediatorDemo;
 import com.williamdsw.creational.abstract_factory.app.AbstractFactoryApp;
 import com.williamdsw.creational.abstract_factory.app.AbstractFactoryDemo;
 import com.williamdsw.creational.builder.app.BuilderDemo;
@@ -48,7 +49,9 @@ public class JavaDesignPatternsMain {
 		
 		//CommandDemo.commandDemo ();
 		
-		IteratorDemo.iteratorDemo ();
+		//IteratorDemo.iteratorDemo ();
+		
+		MediatorDemo.mediatorDemo ();
 	}
 
 }
